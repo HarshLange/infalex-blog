@@ -1,36 +1,54 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
 ---
 
 <BaseLayout
-  title="Infalex – Software & Career Guides"
-  description="Beginner-friendly software and career guides"
+  title="Infalex – Practical Software & Career Guides"
+  description="Actionable software and career guides for students, job seekers, and professionals."
 >
-  <Header />
-
-  <section style="background:var(--blue-light);padding:80px 0;">
-    <div class="container">
-      <div class="card">
-        <h1 style="font-size:42px;margin-bottom:16px;">
-          Practical Software & Career Guides
+  <!-- Hero -->
+  <section class="bg-gradient-to-b from-blue-50 to-white">
+    <div class="max-w-7xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h1 class="text-5xl font-extrabold leading-tight text-slate-900">
+          Practical Software &<br />
+          Career Guides
         </h1>
 
-        <p style="max-width:600px;color:var(--text-muted);font-size:18px;">
-          Infalex helps students, job seekers, and professionals understand
-          software tools, careers, and the modern internet — in simple English.
+        <p class="mt-6 text-lg text-slate-600 max-w-xl">
+          Learn software tools, careers, and the modern internet —
+          explained simply for students and professionals.
         </p>
 
-        <a
-          href="/blog"
-          style="display:inline-block;margin-top:24px;background:var(--blue);color:white;padding:12px 20px;border-radius:8px;font-weight:600;"
-        >
-          Read the Blog →
-        </a>
+        <div class="mt-8 flex gap-4">
+          <a
+            href="/blog"
+            class="bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition"
+          >
+            Read the Blog →
+          </a>
+
+          <a
+            href="/about"
+            class="px-6 py-3 rounded-lg border border-slate-300 text-slate-700 hover:bg-slate-100 transition"
+          >
+            Learn More
+          </a>
+        </div>
+      </div>
+
+      <!-- Visual placeholder -->
+      <div class="hidden md:block">
+        <div class="bg-white rounded-2xl shadow-xl p-8 border">
+          <p class="text-sm text-slate-500">Featured Article</p>
+          <h3 class="text-xl font-semibold mt-2">
+            How to Choose the Right Tech Career in 2026
+          </h3>
+          <p class="text-slate-600 mt-3 text-sm">
+            A beginner-friendly roadmap for students and job switchers.
+          </p>
+        </div>
       </div>
     </div>
   </section>
-
-  <Footer />
 </BaseLayout>

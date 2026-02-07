@@ -1,31 +1,28 @@
 ---
+import BaseLayout from "./BaseLayout.astro";
 const { title, description, date } = Astro.props;
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<BaseLayout title={title} description={description}>
+  <article class="max-w-3xl mx-auto px-6 py-16">
+    <h1 class="text-4xl font-bold leading-tight">{title}</h1>
 
-    <title>{title} – Infalex</title>
-    <meta name="description" content={description} />
-  </head>
+    <p class="text-sm text-slate-500 mt-3">
+      Published on {date}
+    </p>
 
-  <body class="bg-white text-slate-800">
-   <main class="max-w-3xl mx-auto px-4 py-12">
-  <article>
-    <h1 class="text-4xl font-bold mb-4">{title}</h1>
-    <p class="text-sm text-slate-500 mb-10">{date}</p>
+    <!-- Ad Slot: Top -->
+    <div class="my-8 border border-dashed text-center text-sm text-slate-400 py-6">
+      Ad Slot (Top)
+    </div>
 
-    <!-- Ad slot placeholder (disabled for now) -->
-    <!-- <div class="my-8 text-center">Ad goes here</div> -->
-
-    <div class="prose prose-slate max-w-none">
+    <div class="prose prose-slate max-w-none mt-8">
       <slot />
     </div>
-  </article>
-</main>
 
-  </body>
-</html>
+    <!-- Ad Slot: Bottom -->
+    <div class="my-12 border border-dashed text-center text-sm text-slate-400 py-6">
+      Ad Slot (Bottom)
+    </div>
+  </article>
+</BaseLayout>

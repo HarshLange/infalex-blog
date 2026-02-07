@@ -1,36 +1,36 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
 import { getCollection } from "astro:content";
 
 const posts = await getCollection("posts");
 ---
 
-<BaseLayout title="Blog – Infalex" description="Infalex articles">
-  <Header />
+<BaseLayout
+  title="Blog – Infalex"
+  description="Software and career articles from Infalex."
+>
+  <section class="max-w-7xl mx-auto px-6 py-16">
+    <h1 class="text-4xl font-bold mb-10">Blog</h1>
 
-  <section class="container" style="padding:60px 0;">
-    <h1 style="font-size:36px;margin-bottom:32px;">Blog</h1>
-
-    <div style="display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));">
+    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
       {posts.map((post) => (
-        <div class="card">
-          <a href={`/posts/${post.slug}`} style="font-size:20px;font-weight:600;">
+        <article class="bg-white border rounded-xl p-6 hover:shadow-lg transition">
+          <a
+            href={`/posts/${post.slug}`}
+            class="text-xl font-semibold text-blue-600 hover:underline"
+          >
             {post.data.title}
           </a>
 
-          <p style="color:var(--text-muted);margin-top:8px;">
+          <p class="text-slate-600 mt-2">
             {post.data.description}
           </p>
 
-          <p style="font-size:13px;color:#94a3b8;margin-top:16px;">
+          <p class="text-xs text-slate-400 mt-4">
             {post.data.date}
           </p>
-        </div>
+        </article>
       ))}
     </div>
   </section>
-
-  <Footer />
 </BaseLayout>
