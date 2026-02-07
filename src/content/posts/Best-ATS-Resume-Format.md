@@ -6,7 +6,7 @@ date: "2026-02-08"
 
 ## Welcome to Infalex
 
-If you’ve been applying for jobs lately and feel like your resumes are disappearing into a black hole, you aren’t alone. Most companies today don't have a human reading your application—at least not at first. They use an **Applicant Tracking System (ATS)**.
+If you’ve been applying for jobs lately and feel like your resumes are disappearing into a black hole, you aren’t alone. Most companies today don't have a human reading your application at least not at first. They use an **Applicant Tracking System (ATS)**.
 
 At **Infalex**, we believe job searching shouldn't feel like a mystery. This guide is written to help freshers the graduates of 2025 and 2026 understand exactly how to beat the "resume bots" and get their foot in the door.
 
@@ -36,63 +36,110 @@ Since you are a fresher, you might not have 5 years of experience to show off. T
 
 **1. Header (The Contact Info)**
 Keep it simple. Your name should be the largest text on the page.
+
 **Include:** Phone number, professional email (no "coolboy123@gmail.com"), LinkedIn URL, and your GitHub or Portfolio link.
+
 **Avoid:** Photos, your full home address (city/state is enough), or your birthdate. These can sometimes trigger bias filters in modern software.
 
+---
+
 **2. The Professional Summary (Not an Objective)**
+
 The "Career Objective" is dead. In 2026, recruiters want a **Summary**.
-**Old way:** "Seeking a challenging position to utilize my skills..." (Too vague).
-**New way:** "Aspiring Software Engineer with a focus on React and Python. Built an AI Resume Analyzer that improved parsing accuracy by 15%. Eager to apply machine learning solutions in a fast-paced dev team."
+
+**_Old way_:** "Seeking a challenging position to utilize my skills..." (Too vague).
+
+**_New way_:** "Aspiring Software Engineer with a focus on React and Python. Built an AI Resume Analyzer that improved parsing accuracy by 15%. Eager to apply machine learning solutions in a fast-paced dev team."
+
+---
 
 **3. Skills Section (The Keyword Goldmine)**
+
 This is where the ATS does most of its work. It looks for specific keywords mentioned in the job description.
 **Hard Skills:** Java, Python, SQL, AWS, Figma, etc.
+
 **Soft Skills:** Problem solving, Team Collaboration, Agile Methodology.
+
 **Pro Tip:** Don't use "skill bars" (e.g., 80% Python). Computers don't know what 80% means. Just list the skill.
 
+---
+
 **4. Projects (The Fresher’s Secret Weapon)**
+
 Since you lack "Work Experience," your projects are your experience. In 2026, recruiters value a person who builds things. Instead of just listing "Library Management System," explain the **Impact**:
-**Bad:** "Made a chatbot using Python."
-**Good:** "Developed a custom Chatbot using NLP without pre-existing LLM models, focusing on rule based logic to handle 50+ user queries."
+
+**_Bad_:** "Made a chatbot using Python."
+
+**_Good_:** "Developed a custom Chatbot using NLP without pre-existing LLM models, focusing on rule based logic to handle 50+ user queries."
+
+---
 
 **5. Education**
 List your degree, college name, and year of graduation. If your CGPA is above 7.5, include it. If not, focus more on your relevant coursework.
 
-**Formatting Do's and Don'ts for 2026**
+---
+
+**Formatting Do's and Don'ts for 2026:**
 Many freshers make the mistake of trying to stand out visually. In the world of ATS, you stand out by being the most "searchable."
 
 **The "Do" List:**
+
 **Use Standard Headings:** Stick to "Work Experience," "Education," and "Skills." Don't get creative with names like "My Journey" or "Where I've Been."
+
 **Use Reverse-Chronological Order:** Always list your most recent project or education first.
+
 **Save as PDF:** While some old systems liked .docx, 2026 ATS versions are perfect at reading PDFs, and it ensures your formatting stays exactly how you intended.
+
 **Use Bullet Points:** Large paragraphs are hard for both humans and bots to skim.
 
+---
+
 **The "Don't" List:**
+
 **No Tables or Columns:** Tables often "break" when an ATS tries to read them, making your text look like a jumbled mess of letters.
+
 **No Images or Icons:** Don't use a phone icon for your number or a mail icon for your email. Use text.
+
 **No Headers/Footers:** Some systems ignore the text placed in the actual "Header" or "Footer" sections of a Word doc. Keep your contact info in the main body.
 
+---
+
 **How to Optimize for Keywords (The "Human" Way)**
+
 You might have heard people say "just copy-paste the job description in white text." **Never do this**. Modern AI-driven ATS can detect "keyword stuffing" and will automatically blacklist your profile for "cheating."
 
 Instead, do it naturally. If the job description asks for "REST API" and "Teamwork," make sure those exact words appear in your project descriptions or your summary. Look for the "Must Haves" in the job post and ensure they are highlighted in your Skills section.
 
+---
+
 **Why "Infalex" Recommends Minimalist Designs**
+
 We see a lot of students using multi color templates from graphic design sites. They look beautiful on a 4K monitor, but they are a nightmare for a database.
 
 The best resume is one that a human can read in **6 seconds**. When a recruiter finally gets your resume after the ATS filters it, they want to see your name, your top skills, and what you’ve built without having to search through a maze of colors and shapes.
 
+---
+
 **Frequently Asked Questions (FAQs)**
+
 **Q: Should I include my photo?**
+
 **A:** Generally, no. In India and the US, photos are discouraged to avoid unconscious bias during the screening process.
 
+
 **Q: How long should a fresher resume be?**
+
 **A:** Exactly one page. If you have less than 2 years of experience, there is no reason to go to a second page. Be concise.
 
+
 **Q: Can I use AI like ChatGPT to write my resume?**
+
 **A:** You can use it to structure your thoughts, but don't let it write the whole thing. AI generated resumes often sound "robotic" and generic. Add your personal touch, especially in the project descriptions.
 
+---
+
 **Final Thoughts:** **It's About Quality, Not Quantity**
+
 You don't need to apply to 100 jobs a day. You need to apply to 5 jobs with a resume that is specifically tailored for each. Take the extra 10 minutes to tweak your "Skills" section for every application. It makes a world of difference.
 
 At **Infalex**, we want you to spend less time worrying about the "system" and more time building the skills that matter. Your resume is just a bridge make sure it’s a sturdy one.
