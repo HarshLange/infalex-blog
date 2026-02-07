@@ -6,18 +6,23 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   title="Contact – Infalex"
   description="Contact Infalex for questions or feedback."
 >
-  <section class="py-16">
-    <div class="max-w-3xl space-y-4">
-      <h1 class="text-4xl font-bold">Contact</h1>
-
-      <p>
-        If you have questions, feedback, or suggestions about Infalex,
-        you can reach us via email.
-      </p>
-
-      <p>
-        📧 Email: <strong>contact@infalex.com</strong>
-      </p>
+  <div class="max-w-3xl mx-auto px-6 py-24">
+    <div class="mb-12">
+        <h1 class="text-4xl font-extrabold text-slate-900 tracking-tight mb-6">Get in Touch</h1>
+        <p class="text-lg text-slate-600">Have questions, feedback, or partnership opportunities?</p>
     </div>
-  </section>
+
+    <div class="bg-white rounded-2xl shadow-xl shadow-slate-200/60 border border-slate-100 p-8 md:p-12 text-center">
+        <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-3xl mx-auto mb-6">
+            ✉️
+        </div>
+        <h2 class="text-2xl font-bold text-slate-900 mb-4">Email Us</h2>
+        <p class="text-slate-600 mb-8">
+            The best way to reach us is via email. We aim to respond within 24-48 hours.
+        </p>
+        <a href="mailto:contact@infalex.com" class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-blue-600 rounded-xl hover:bg-blue-700 transition-all hover:shadow-lg">
+            contact@infalex.com
+        </a>
+    </div>
+  </div>
 </BaseLayout>
