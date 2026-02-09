@@ -6,21 +6,33 @@ import Footer from "../components/Footer.astro";
 const { title, description } = Astro.props;
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="scroll-smooth">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    
+
     <title>{title}</title>
     <meta name="description" content={description} />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-162KWK3Q3L"
+    ></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-162KWK3Q3L");
+    </script>
   </head>
 
   <body class="bg-white text-slate-900 antialiased flex flex-col min-h-screen">
     <Header />
-    
+
     <main class="flex-grow animate-fade-in-up">
       <slot />
     </main>
