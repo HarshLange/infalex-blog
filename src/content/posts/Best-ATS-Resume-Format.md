@@ -2,6 +2,8 @@
 title: "The Ultimate Guide: Best ATS Resume Format for Freshers in 2026"
 description: "Stop getting rejected by bots. Learn how to build a high-ranking, ATS-friendly resume that actually lands interviews for entry level roles in 2026."
 date: "2026-02-08"
+thumbnail: "/src/assets/blog/Best-ATS-Resume-Format/cover.png"
+
 ---
 
 ## Welcome to Infalex
