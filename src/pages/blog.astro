@@ -3,7 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 
 const posts = (await getCollection("posts")).sort(
-	(a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf()
+  (a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf(),
 );
 ---
 
@@ -11,52 +11,70 @@ const posts = (await getCollection("posts")).sort(
   title="Blog – Infalex"
   description="Software and career articles from Infalex."
 >
-  <div class="bg-slate-50 py-16">
+  <section class="relative bg-gradient-to-b from-blue-50 to-slate-50 py-20 lg:py-28 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <span class="inline-block py-1 px-3 rounded-full bg-blue-100 text-blue-700 text-xs font-bold tracking-wide uppercase mb-4">
+        Engineering & Career
+      </span>
+      <h1 class="text-5xl md:text-6xl font-extrabold text-slate-900 mb-6 tracking-tight">
+        Latest <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Insights</span>
+      </h1>
+      <p class="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
+        Practical guides on software development, resume building, and modern tech stacks.
+      </p>
+    </div>
+  </section>
+
+  <section class="py-16 bg-slate-50">
     <div class="max-w-7xl mx-auto px-6">
-      <div class="text-center max-w-2xl mx-auto mb-16">
-        <h1 class="text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Latest Insights</h1>
-        <p class="text-lg text-slate-600">Explore our library of guides, tutorials, and industry analysis.</p>
-      </div>
-
       <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-        {posts.map((post) => (
-          <article class="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col h-full overflow-hidden group">
-            <div class="h-48 bg-slate-100 w-full relative overflow-hidden">
-                <div class="absolute inset-0 bg-gradient-to-tr from-blue-50 to-slate-200 group-hover:scale-105 transition-transform duration-500"></div>
-            </div>
+        {
+          posts.map((post) => (
+            <article class="group bg-white rounded-2xl border border-slate-200 hover:border-blue-300 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden flex flex-col">
+              <a href={`/posts/${post.slug}`} class="block overflow-hidden">
+                {post.data.thumbnail && (
+                  <img
+                    src={post.data.thumbnail}
+                    alt={post.data.title}
+                    class="h-52 w-full object-cover transform group-hover:scale-105 transition duration-500"
+                    loading="lazy"
+                  />
+                )}
+              </a>
 
-            <div class="p-6 flex flex-col flex-grow">
-              <div class="flex items-center gap-3 text-xs font-medium text-slate-500 mb-4">
-                <span class="bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full border border-blue-100">Article</span>
-                <time datetime={post.data.date}>
-                  {new Date(post.data.date).toLocaleDateString('en-US', {
-                    year: 'numeric',
-                    month: 'short',
-                    day: 'numeric',
-                  })}
-                </time>
+              <div class="p-6 flex flex-col flex-grow">
+                <div class="flex items-center gap-3 text-xs font-medium text-slate-500 mb-4">
+                    <time datetime={post.data.date.toISOString()}>
+                        {new Date(post.data.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+                    </time>
+                    <span>•</span>
+                    <span class="text-blue-600">5 min read</span>
+                </div>
+
+                <a href={`/posts/${post.slug}`}>
+                  <h2 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-blue-600 transition leading-tight">
+                    {post.data.title}
+                  </h2>
+                </a>
+
+                <p class="text-slate-600 text-sm mb-6 flex-grow leading-relaxed line-clamp-3">
+                  {post.data.description}
+                </p>
+
+                <a
+                  href={`/posts/${post.slug}`}
+                  class="inline-flex items-center text-blue-600 font-semibold text-sm group-hover:translate-x-1 transition-transform"
+                >
+                  Read article 
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </a>
               </div>
-
-              <a href={`/posts/${post.slug}`} class="block group-hover:text-blue-600 transition-colors">
-                <h2 class="text-xl font-bold text-slate-900 mb-3 leading-snug">
-                  {post.data.title}
-                </h2>
-              </a>
-
-              <p class="text-slate-600 text-sm leading-relaxed mb-6 flex-grow line-clamp-3">
-                {post.data.description}
-              </p>
-
-              <a href={`/posts/${post.slug}`} class="inline-flex items-center text-sm font-semibold text-blue-600 hover:text-blue-700 mt-auto">
-                Read article 
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform">
-                  <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd" />
-                </svg>
-              </a>
-            </div>
-          </article>
-        ))}
+            </article>
+          ))
+        }
       </div>
     </div>
-  </div>
+  </section>
 </BaseLayout>

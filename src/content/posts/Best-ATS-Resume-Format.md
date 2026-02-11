@@ -1,8 +1,8 @@
 ---
 title: "The Ultimate Guide: Best ATS Resume Format for Freshers in 2026"
 description: "Stop getting rejected by bots. Learn how to build a high-ranking, ATS-friendly resume that actually lands interviews for entry level roles in 2026."
-date: "2026-02-08"
-thumbnail: "/src/assets/blog/Best-ATS-Resume-Format/cover.png"
+date: 2026-02-08
+thumbnail: "/blog/Best-ATS-Resume-Format/Cover.png"
 
 ---
 
@@ -14,7 +14,7 @@ At **Infalex**, we believe job searching shouldn't feel like a mystery. This gui
 
 ---
 
-**The Reality of Job Hunting in 2026**
+## The Reality of Job Hunting in 2026
 
 The job market has changed. In 2026, AI is no longer just a buzzword; it is the primary filter for recruitment. When you click "Apply" on LinkedIn or Naukri, your resume is instantly scanned, parsed, and ranked by an ATS.
 
@@ -22,21 +22,23 @@ If your resume is too "pretty" (full of graphics) or too messy (bad formatting),
 
 ---
 
-**What Exactly is an ATS-Friendly Resume?**
+## What Exactly is an ATS-Friendly Resume?
 
 An ATS-friendly resume is a document designed specifically to be "readable" by software. It avoids complex layouts that confuse the code. Think of it like this: the ATS is a fast-reader that likes simple, structured data. If you give it a multi column layout with fancy progress bars for your skills, it gets "headaches" and tosses your file aside.
 
+![ATS Resume Example](/blog/Best-ATS-Resume-Format/ATS-Comparision.png)
 
-**The Golden Rule: Simple is Better**
+## The Golden Rule: "Simple is Better"
 In 2026, the trend is moving away from over-designed Canva templates. The "Best" format is actually the most boring looking one. We are talking about clean lines, standard fonts, and a logical flow from top to bottom.
 
 ---
 
-**The Perfect Structure for Freshers**
+## The Perfect Structure for Freshers
 
 Since you are a fresher, you might not have 5 years of experience to show off. That’s okay. The ATS looks for **relevance**, not just years. Here is the exact order your resume should follow:
 
-**1. Header (The Contact Info)**
+## 1. Header (The Contact Info):
+
 Keep it simple. Your name should be the largest text on the page.
 
 **Include:** Phone number, professional email (no "coolboy123@gmail.com"), LinkedIn URL, and your GitHub or Portfolio link.
@@ -45,7 +47,9 @@ Keep it simple. Your name should be the largest text on the page.
 
 ---
 
-**2. The Professional Summary (Not an Objective)**
+![ATS Resume Example](/blog/Best-ATS-Resume-Format/Fresher-Resume.png)
+
+## 2. The Professional Summary (Not an Objective):
 
 The "Career Objective" is dead. In 2026, recruiters want a **Summary**.
 
@@ -55,7 +59,7 @@ The "Career Objective" is dead. In 2026, recruiters want a **Summary**.
 
 ---
 
-**3. Skills Section (The Keyword Goldmine)**
+## 3. Skills Section (The Keyword Goldmine):
 
 This is where the ATS does most of its work. It looks for specific keywords mentioned in the job description.
 **Hard Skills:** Java, Python, SQL, AWS, Figma, etc.
@@ -66,7 +70,7 @@ This is where the ATS does most of its work. It looks for specific keywords ment
 
 ---
 
-**4. Projects (The Fresher’s Secret Weapon)**
+## 4. Projects (The Fresher’s Secret Weapon):
 
 Since you lack "Work Experience," your projects are your experience. In 2026, recruiters value a person who builds things. Instead of just listing "Library Management System," explain the **Impact**:
 
@@ -76,15 +80,15 @@ Since you lack "Work Experience," your projects are your experience. In 2026, re
 
 ---
 
-**5. Education**
+## 5. Education:
 List your degree, college name, and year of graduation. If your CGPA is above 7.5, include it. If not, focus more on your relevant coursework.
 
 ---
 
-**Formatting Do's and Don'ts for 2026:**
+## Formatting Do's and Don'ts for 2026:
 Many freshers make the mistake of trying to stand out visually. In the world of ATS, you stand out by being the most "searchable."
 
-**The "Do" List:**
+## The "Do" List:
 
 **Use Standard Headings:** Stick to "Work Experience," "Education," and "Skills." Don't get creative with names like "My Journey" or "Where I've Been."
 
@@ -96,7 +100,9 @@ Many freshers make the mistake of trying to stand out visually. In the world of 
 
 ---
 
-**The "Don't" List:**
+![ATS Resume Example](/blog/Best-ATS-Resume-Format/Resume.png)
+
+## The "Don't" List:
 
 **No Tables or Columns:** Tables often "break" when an ATS tries to read them, making your text look like a jumbled mess of letters.
 
@@ -106,7 +112,7 @@ Many freshers make the mistake of trying to stand out visually. In the world of 
 
 ---
 
-**How to Optimize for Keywords (The "Human" Way)**
+## How to Optimize for Keywords (The "Human" Way)
 
 You might have heard people say "just copy-paste the job description in white text." **Never do this**. Modern AI-driven ATS can detect "keyword stuffing" and will automatically blacklist your profile for "cheating."
 
@@ -114,7 +120,9 @@ Instead, do it naturally. If the job description asks for "REST API" and "Teamwo
 
 ---
 
-**Why "Infalex" Recommends Minimalist Designs**
+![ATS Resume Example](/blog/Best-ATS-Resume-Format/ATS-Score.png)
+
+## Why "Infalex" Recommends Minimalist Designs
 
 We see a lot of students using multi color templates from graphic design sites. They look beautiful on a 4K monitor, but they are a nightmare for a database.
 
@@ -122,7 +130,7 @@ The best resume is one that a human can read in **6 seconds**. When a recruiter 
 
 ---
 
-**Frequently Asked Questions (FAQs)**
+## Frequently Asked Questions (FAQs)
 
 **Q: Should I include my photo?**
 
@@ -140,7 +148,7 @@ The best resume is one that a human can read in **6 seconds**. When a recruiter 
 
 ---
 
-**Final Thoughts:** **It's About Quality, Not Quantity**
+## Final Thoughts: It's About Quality, Not Quantity
 
 You don't need to apply to 100 jobs a day. You need to apply to 5 jobs with a resume that is specifically tailored for each. Take the extra 10 minutes to tweak your "Skills" section for every application. It makes a world of difference.
 
