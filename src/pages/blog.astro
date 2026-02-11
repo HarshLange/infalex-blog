@@ -11,16 +11,28 @@ const posts = (await getCollection("posts")).sort(
   title="Blog – Infalex"
   description="Software and career articles from Infalex."
 >
-  <section class="relative bg-linear-to-b from-blue-50 to-slate-50 py-20 lg:py-28 border-b border-slate-200">
+  <section
+    class="relative bg-linear-to-b from-blue-50 to-slate-50 py-20 lg:py-28 border-b border-slate-200"
+  >
     <div class="max-w-7xl mx-auto px-6 text-center">
-      <span class="inline-block py-1 px-3 rounded-full bg-blue-100 text-blue-700 text-xs font-bold tracking-wide uppercase mb-4">
+      <span
+        class="inline-block py-1 px-3 rounded-full bg-blue-100 text-blue-700 text-xs font-bold tracking-wide uppercase mb-4"
+      >
         Engineering & Career
       </span>
-      <h1 class="text-5xl md:text-6xl font-extrabold text-slate-900 mb-6 tracking-tight">
-        Latest <span class="text-transparent bg-clip-text bg-linear-to-r from-blue-600 to-indigo-600">Insights</span>
+      <h1
+        class="text-5xl md:text-6xl font-extrabold text-slate-900 mb-6 tracking-tight"
+      >
+        Latest <span
+          class="text-transparent bg-clip-text bg-linear-to-r from-blue-600 to-indigo-600"
+          >Insights</span
+        >
       </h1>
-      <p class="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
-        Practical guides on software development, resume building, and modern tech stacks.
+      <p
+        class="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed"
+      >
+        Practical guides on software development, resume building, and modern
+        tech stacks.
       </p>
     </div>
   </section>
@@ -36,7 +48,7 @@ const posts = (await getCollection("posts")).sort(
                   <img
                     src={post.data.thumbnail}
                     alt={post.data.title}
-                    class="h-52 w-full object-cover transform group-hover:scale-105 transition duration-500"
+                    class="aspect-video w-full object-contain bg-blue-100 transform group-hover:scale-105 transition duration-500"
                     loading="lazy"
                   />
                 )}
@@ -44,11 +56,15 @@ const posts = (await getCollection("posts")).sort(
 
               <div class="p-6 flex flex-col grow">
                 <div class="flex items-center gap-3 text-xs font-medium text-slate-500 mb-4">
-                    <time datetime={post.data.date.toISOString()}>
-                        {new Date(post.data.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
-                    </time>
-                    <span>•</span>
-                    <span class="text-blue-600">5 min read</span>
+                  <time datetime={post.data.date.toISOString()}>
+                    {new Date(post.data.date).toLocaleDateString("en-US", {
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
+                    })}
+                  </time>
+                  <span>•</span>
+                  <span class="text-blue-600">5 min read</span>
                 </div>
 
                 <a href={`/posts/${post.slug}`}>
@@ -65,9 +81,20 @@ const posts = (await getCollection("posts")).sort(
                   href={`/posts/${post.slug}`}
                   class="inline-flex items-center text-blue-600 font-semibold text-sm group-hover:translate-x-1 transition-transform"
                 >
-                  Read article 
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  Read article
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 ml-1"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17 8l4 4m0 0l-4 4m4-4H3"
+                    />
                   </svg>
                 </a>
               </div>
