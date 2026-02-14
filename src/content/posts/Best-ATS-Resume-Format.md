@@ -10,7 +10,7 @@ thumbnail: "/blog/Best-ATS-Resume-Format/Cover.png"
 
 If you’ve been applying for jobs lately and feel like your resumes are disappearing into a black hole, you aren’t alone. Most companies today don't have a human reading your application at least not at first. They use an **Applicant Tracking System (ATS)**.
 
-At **Infalex**, we believe job searching shouldn't feel like a mystery. This guide is written to help freshers the graduates of 2025 and 2026 understand exactly how to beat the "resume bots" and get their foot in the door.
+At [Infalex](https://infalex.com), we believe job searching shouldn't feel like a mystery. This guide is written to help freshers the graduates of 2025 and 2026 understand exactly how to beat the "resume bots" and get their foot in the door.
 
 ---
 
@@ -152,4 +152,4 @@ The best resume is one that a human can read in **6 seconds**. When a recruiter 
 
 You don't need to apply to 100 jobs a day. You need to apply to 5 jobs with a resume that is specifically tailored for each. Take the extra 10 minutes to tweak your "Skills" section for every application. It makes a world of difference.
 
-At **Infalex**, we want you to spend less time worrying about the "system" and more time building the skills that matter. Your resume is just a bridge make sure it’s a sturdy one.
+At [Infalex](https://infalex.com), we want you to spend less time worrying about the "system" and more time building the skills that matter. Your resume is just a bridge make sure it’s a sturdy one.
