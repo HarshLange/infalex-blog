@@ -235,7 +235,7 @@ If you found this guide helpful, we have more resources designed to help you nav
 
 [Why Your Resume Gets Rejected by ATS (And How to Fix It)](https://blog.infalex.com/posts/ats-rejection-fix/) – A detailed breakdown of the exact templates and layouts that are passing the bots right now.
 
-[Best ATS Resume Format in 2026](https://blog.infalex.com/posts/top-resume-keywords-recruiters-look/) – Discover the power words that trigger the algorithm and catch a recruiter's eye.
+[Best ATS Resume Format in 2026](https://blog.infalex.com/posts/best-ats-resume-format/) – Discover the power words that trigger the algorithm and catch a recruiter's eye.
 
 Want to browse our full library of tips and tutorials? [Read our latest articles on the Blog](https://blog.infalex.com/blog/).
 
