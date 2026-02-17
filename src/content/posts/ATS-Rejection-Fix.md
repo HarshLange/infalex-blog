@@ -49,7 +49,7 @@ This is a fundamental mistake that's surprisingly common. While most modern ATS 
 Keywords are the lifeblood of an ATS. These are the specific terms, phrases, and skills that the ATS is programmed to look for based on the job description.
     - **The Problem:** Your resume might be well-written, but if it doesn't contain the exact keywords from the job description, the ATS won't flag it as relevant. Using synonyms instead of exact terms (e.g., "team lead" instead of "project manager" if the job asks for the latter) can be detrimental.
     - **The Fix:** Tailor your resume for EACH job application.
-        1. **Analyze the Job Description:** Read it carefully, highlighting all the keywords related to skills, responsibilities, tools, and qualifications.
+        1. **Analyze the Job Description:** Read it carefully, highlighting all the keywords related to skills, responsibilities, [tools](https://tools.infalex.com), and qualifications.
         2. **Integrate Naturally:** Weave these keywords into your professional summary, experience bullet points, and skills section. Don't just list them; show how you've applied them.
         3. **Use Exact Phrases:** If the job asks for "customer relationship management," don't just say "customer relations." Use the full phrase.
 
@@ -100,7 +100,7 @@ An ATS is designed to extract specific data points. If these are missing or diff
     - **The Problem:** Omitting crucial contact information, dates of employment/education, or a dedicated skills section can hinder parsing and lead to a lower match score. Sometimes, unconventional section titles also cause issues.
     - **The Fix:** Include all essential sections with clear, standard headings.
         1. **Standard Headings:** Use conventional titles like "Contact Information," "Professional Summary," "Work Experience," "Skills," "Education," and "Projects."
-        2. **Complete Information:** Ensure your contact details (phone, email, LinkedIn URL) are prominent. Include start and end dates for all experiences and education.
+        2. **Complete Information:** Ensure your contact details (phone, email, [LinkedIn](https://linkedin.com) URL) are prominent. Include start and end dates for all experiences and education.
         3. **Dedicated Skills Section:** Have a clear, bulleted list of your technical and soft skills, making it easy for the ATS to identify them.
 
 Here's a visual representation of crucial elements for an ATS-friendly resume:
@@ -112,7 +112,7 @@ While an ATS won't typically reject a resume solely for a typo, these errors can
     - **The Problem:** Typos, grammatical mistakes, and inconsistent formatting can make your resume appear sloppy, reducing its credibility.
     - **The Fix:** Proofread meticulously.
         1. **Multiple Reads:** Read your resume multiple times, both on screen and printed out.
-        2. **Tools:** Use spell-checkers and grammar tools (like Grammarly) but don't rely on them exclusively.
+        2. ** [tools:](https://tools.infalex.com):** Use spell-checkers and grammar  [tools](https://tools.infalex.com) (like Grammarly) but don't rely on them exclusively.
         3. **Fresh Eyes:** Ask a friend or mentor to review your resume for errors.
         4. **Read Aloud:** Reading your resume aloud can help you catch awkward phrasing and mistakes.
 
@@ -175,7 +175,7 @@ Before you apply, put your resume to the test!
 
 - **Copy-Paste Test:** Copy your entire resume and paste it into a plain text editor (like Notepad on Windows or TextEdit on Mac, or even a blank email). If it looks jumbled, unreadable, or loses critical information, the ATS will likely struggle with it. This is a critical self-check.
 
-- **Online ATS Scanners:** Use free online ATS resume scanners (e.g., [Resumetra](https://resumetra.infalex.com), Jobscan, Resume Worded) to get an immediate match score and identify missing keywords or formatting issues. These tools are excellent for fine-tuning.
+- **Online ATS Scanners:** Use free online ATS resume scanners (e.g., [Resumetra](https://resumetra.infalex.com), Jobscan, Resume Worded) to get an immediate match score and identify missing keywords or formatting issues. These [tools](https://tools.infalex.com) are excellent for fine-tuning.
 
 Here's an illustration of how an ATS score changes with optimization:
 
@@ -187,7 +187,7 @@ Here's an illustration of how an ATS score changes with optimization:
 
 - **Fresh Eyes:** Have someone else proofread your resume.
 
--  [Tools:](https://tools.infalex.com) Use grammar and spell-checking tools, but don't rely solely on them.
+-  [Tools:](https://tools.infalex.com) Use grammar and spell-checking [tools](https://tools.infalex.com), but don't rely solely on them.
 
 ---
 
@@ -219,7 +219,7 @@ The goal of ATS optimization is to get past the machine without sacrificing read
 **A:** Yes, many ATS can also scan cover letters for keywords. Tailoring your cover letter to the job description, mirroring keywords, and explaining how your skills align with the role can increase your overall ATS score.
 
 **Q: Can AI (like [ChatGPT](https://chatgpt.com)) help me write an ATS-friendly resume?**                      
-**A:** AI tools can be incredibly helpful for drafting bullet points, suggesting keywords, and refining language. However, they should be used as an assistant, not a replacement. Always personalize the content, fact-check, and ensure it accurately reflects your experience and voice. AI-generated content can sometimes sound generic, so add your unique touch.
+**A:** AI [tools](https://tools.infalex.com) can be incredibly helpful for drafting bullet points, suggesting keywords, and refining language. However, they should be used as an assistant, not a replacement. Always personalize the content, fact-check, and ensure it accurately reflects your experience and voice. AI-generated content can sometimes sound generic, so add your unique touch.
 
 Here's an example of how tailoring your resume can significantly improve your ATS score:
 

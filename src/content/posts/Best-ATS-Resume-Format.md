@@ -16,7 +16,7 @@ At [Infalex](https://infalex.com), we believe job searching shouldn't feel like 
 
 ## The Reality of Job Hunting in 2026
 
-The job market has changed. In 2026, AI is no longer just a buzzword; it is the primary filter for recruitment. When you click "Apply" on LinkedIn or Naukri, your resume is instantly scanned, parsed, and ranked by an ATS.
+The job market has changed. In 2026, AI is no longer just a buzzword; it is the primary filter for recruitment. When you click "Apply" on [LinkedIn](https://linkedin.com) or Naukri, your resume is instantly scanned, parsed, and ranked by an ATS.
 
 If your resume is too "pretty" (full of graphics) or too messy (bad formatting), the system can't read it. If the system can't read it, a human recruiter will never see it. For a fresher, this is the biggest hurdle. You have the skills, but the bot doesn't know how to find them.
 
@@ -41,7 +41,7 @@ Since you are a fresher, you might not have 5 years of experience to show off. T
 
 Keep it simple. Your name should be the largest text on the page.
 
-**Include:** Phone number, professional email (no "coolboy123@gmail.com"), LinkedIn URL, and your GitHub or Portfolio link.
+**Include:** Phone number, professional email (no "coolboy123@gmail.com"), [LinkedIn](https://linkedin.com) URL, and your GitHub or Portfolio link.
 
 **Avoid:** Photos, your full home address (city/state is enough), or your birthdate. These can sometimes trigger bias filters in modern software.
 
