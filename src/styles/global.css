@@ -27,3 +27,7 @@ body {
 .stagger-1 { animation-delay: 100ms; }
 .stagger-2 { animation-delay: 200ms; }
 .stagger-3 { animation-delay: 300ms; }
+
+.prose code {
+  @apply bg-slate-500 text-slate-100 px-2 py-1 rounded-md text-sm font-mono;
+}
