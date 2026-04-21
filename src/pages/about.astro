@@ -4,31 +4,79 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
 <BaseLayout
   title="About Infalex"
-  description="Learn more about Infalex and our mission."
+  description="Learn more about Infalex and our mission to democratize technical knowledge."
 >
-  <div class="max-w-3xl mx-auto px-6 py-24">
-    <div class="mb-12">
-        <h1 class="text-4xl font-extrabold text-slate-900 tracking-tight mb-6">About Infalex</h1>
-        <div class="w-20 h-1 bg-blue-600 rounded-full"></div>
+
+<section style="background:var(--surface-2); padding:80px 0 64px; border-bottom:1px solid var(--border); position:relative; overflow:hidden;">
+  <div style="position:absolute; inset:0; background-image:linear-gradient(rgba(37,99,235,0.04) 1px,transparent 1px),linear-gradient(90deg,rgba(37,99,235,0.04) 1px,transparent 1px); background-size:40px 40px; mask-image:radial-gradient(ellipse at center,black 40%,transparent 80%);"></div>
+  <div style="max-width:800px; margin:0 auto; padding:0 24px; position:relative; z-index:1; text-align:center;">
+    <div class="animate-fade-up" style="display:inline-flex; align-items:center; gap:8px; padding:5px 14px; background:rgba(37,99,235,0.08); border:1px solid rgba(37,99,235,0.2); border-radius:100px; font-size:0.75rem; font-weight:700; color:var(--blue-vivid); letter-spacing:0.06em; text-transform:uppercase; margin-bottom:20px;">About Us</div>
+    <h1 class="animate-fade-up stagger-1" style="font-size:clamp(2rem,5vw,3.25rem); font-weight:800; letter-spacing:-0.04em; margin-bottom:16px;">
+      About <span class="gradient-text">Infalex</span>
+    </h1>
+    <p class="animate-fade-up stagger-2" style="font-size:1.0625rem; color:var(--text-secondary); line-height:1.7;">
+      We believe knowledge is the great equalizer. Infalex exists to make technical and career knowledge accessible to everyone.
+    </p>
+  </div>
+</section>
+
+<section style="padding:80px 0; background:var(--surface);">
+  <div style="max-width:800px; margin:0 auto; padding:0 24px;">
+    
+    <div class="reveal" style="margin-bottom:48px;">
+      <h2 style="font-size:1.625rem; font-weight:800; letter-spacing:-0.035em; margin-bottom:16px; color:var(--ink);">What is Infalex?</h2>
+      <p style="font-size:1.0625rem; color:var(--text-secondary); line-height:1.8; margin-bottom:16px;">
+        Infalex is an independent educational platform focused on demystifying software tools and career paths for the modern digital economy. Our goal is to explain complex topics in simple, beginner-friendly English.
+      </p>
+      <p style="font-size:1.0625rem; color:var(--text-secondary); line-height:1.8;">
+        Whether you're looking to switch careers into tech or master a new tool — from resume optimization to understanding ATS systems — we break it down clearly, without the jargon.
+      </p>
     </div>
 
-    <div class="prose prose-lg prose-slate text-slate-600">
-      <p class="lead text-xl text-slate-700">
-        Infalex is an independent educational platform focused on demystifying software tools and career paths for the modern digital economy.
-      </p>
-      
-      <p>
-        Our goal is to explain complex topics in simple, beginner-friendly English for students, job seekers, freelancers, and professionals worldwide. Whether you are looking to switch careers into tech or just want to master a new tool, we are here to help.
-      </p>
-
-      <div class="bg-blue-50 border-l-4 border-blue-600 p-6 my-8 rounded-r-lg">
-        <h3 class="text-blue-900 font-bold text-lg mb-2">Our Mission</h3>
-        <p class="text-blue-800 m-0">To democratize technical knowledge and empower individuals to build sustainable careers in the digital age.</p>
+    <!-- Mission card -->
+    <div class="reveal" style="background:linear-gradient(135deg,var(--blue-soft),rgba(6,182,212,0.06)); border:1px solid rgba(37,99,235,0.15); border-radius:20px; padding:36px; margin-bottom:48px;">
+      <div style="display:flex; gap:16px; align-items:flex-start;">
+        <div style="width:44px; height:44px; background:linear-gradient(135deg,var(--blue-vivid),var(--accent)); border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:1.25rem; flex-shrink:0;">🎯</div>
+        <div>
+          <h3 style="font-size:1.125rem; font-weight:800; letter-spacing:-0.025em; color:var(--ink); margin-bottom:10px;">Our Mission</h3>
+          <p style="font-size:1rem; color:var(--text-secondary); line-height:1.7; margin:0;">
+            To democratize technical knowledge and empower individuals to build sustainable careers in the digital age — regardless of their background or formal education.
+          </p>
+        </div>
       </div>
+    </div>
 
-      <p>
-        Infalex is being developed as a long-term knowledge platform and future SaaS ecosystem.
+    <!-- Values -->
+    <div class="reveal" style="margin-bottom:48px;">
+      <h2 style="font-size:1.375rem; font-weight:800; letter-spacing:-0.03em; margin-bottom:24px; color:var(--ink);">What We Stand For</h2>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;" class="values-grid">
+        {[
+          { icon: '✏️', title: 'Clarity First', desc: 'Every article is written to be understood on first read. No fluff, no jargon.' },
+          { icon: '🌍', title: 'Accessible', desc: 'Our content is free and designed for learners anywhere in the world.' },
+          { icon: '🔄', title: 'Up-to-Date', desc: 'We update our guides to reflect the latest hiring trends and tools.' },
+          { icon: '🤝', title: 'Honest', desc: 'We give real advice, not just what you want to hear.' },
+        ].map(v => (
+          <div style="background:var(--surface-2); border:1px solid var(--border); border-radius:16px; padding:24px;">
+            <div style="font-size:1.5rem; margin-bottom:12px;">{v.icon}</div>
+            <h4 style="font-size:0.9375rem; font-weight:700; color:var(--ink); margin-bottom:6px;">{v.title}</h4>
+            <p style="font-size:0.875rem; color:var(--text-secondary); line-height:1.6; margin:0;">{v.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <div class="reveal" style="background:var(--ink); border-radius:20px; padding:36px; text-align:center;">
+      <p style="font-size:1rem; color:rgba(255,255,255,0.7); line-height:1.7; margin-bottom:24px;">
+        Infalex is being developed as a long-term knowledge platform and future SaaS ecosystem — starting with guides, evolving into tools.
       </p>
+      <a href="/blog" class="btn-primary" style="display:inline-flex;">Read Our Guides →</a>
     </div>
   </div>
+</section>
+
+<style>
+  @media (max-width: 560px) {
+    .values-grid { grid-template-columns: 1fr !important; }
+  }
+</style>
 </BaseLayout>

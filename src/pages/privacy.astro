@@ -1,38 +1,217 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+
+const lastUpdated = "February 2026";
+
+const sections = [
+  {
+    icon: "👤",
+    title: "Information We Collect",
+    content:
+      "Infalex.com does not require you to create an account or submit any personal information to read our articles. We may collect limited, non-personally identifiable data through cookies and analytics tools to understand how visitors use our site — such as which pages are visited, how long visitors spend on a page, and general geographic location (country level only). If you contact us via email, we will collect the information you voluntarily provide, such as your name and email address, solely for the purpose of responding to your enquiry.",
+  },
+  {
+    icon: "🍪",
+    title: "Cookies & Third-Party Services",
+    content:
+      "We use third-party services that may set cookies on your device. Google Analytics helps us understand site traffic and user behaviour in aggregate. Google AdSense (if active) may serve advertisements based on your browsing history. These third-party services operate under their own privacy policies, which we encourage you to review. You can opt out of Google Analytics by installing the Google Analytics Opt-out Browser Add-on, and you can manage ad personalization through Google's Ad Settings.",
+  },
+  {
+    icon: "🔒",
+    title: "How We Use Your Information",
+    content:
+      "Any information collected is used exclusively to improve the Infalex website experience, understand which topics are most helpful to our readers, communicate with you when you contact us directly, and ensure the site operates correctly. We do not sell, rent, or trade your personal information to any third party for marketing purposes, ever.",
+  },
+  {
+    icon: "🛡️",
+    title: "Data Protection & Security",
+    content:
+      "We take reasonable technical and organizational measures to protect any information we hold from unauthorized access, loss, or misuse. However, no method of transmission over the internet or electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your data, we cannot guarantee its absolute security.",
+  },
+  {
+    icon: "🌍",
+    title: "International Visitors",
+    content:
+      "Infalex is accessible globally. If you are visiting from outside India, please be aware that your information may be transferred to, stored, and processed in India or other countries where our service providers operate. By using our site, you consent to this transfer in accordance with this Privacy Policy.",
+  },
+  {
+    icon: "🔗",
+    title: "Links to Other Websites",
+    content:
+      "Our articles may contain links to external websites for your convenience and reference. These sites are not operated by Infalex and are governed by their own privacy policies. We have no control over the content or data practices of linked third-party sites and accept no responsibility for them. We encourage you to read the privacy policy of every site you visit.",
+  },
+  {
+    icon: "👶",
+    title: "Children's Privacy",
+    content:
+      "Infalex does not knowingly collect personal information from children under the age of 13. Our content is directed at students, job seekers, and professionals who are typically adults or young adults. If you believe a child has provided us with personal data, please contact us and we will promptly delete it.",
+  },
+  {
+    icon: "✏️",
+    title: "Changes to This Policy",
+    content:
+      "We may update this Privacy Policy from time to time to reflect changes in our practices or applicable law. When we do, we will revise the 'Last updated' date at the top of this page. Continued use of Infalex.com after any changes constitutes your acceptance of the updated policy. We encourage you to review this page periodically.",
+  },
+];
 ---
 
 <BaseLayout
   title="Privacy Policy – Infalex"
-  description="Privacy policy for Infalex blog."
+  description="How Infalex collects, uses, and protects your information when you visit our website."
 >
-  <div class="max-w-3xl mx-auto px-6 py-24">
-    
-    <div class="mb-10 border-b border-slate-200 pb-8">
-      <h1 class="text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Privacy Policy</h1>
-      <p class="text-slate-500">Last updated: February 2026</p>
+
+  <!-- ══ HERO ══ -->
+  <section style="background:var(--surface-2); padding:80px 0 56px; border-bottom:1px solid var(--border); position:relative; overflow:hidden;">
+    <div style="position:absolute; inset:0; background-image:linear-gradient(rgba(37,99,235,0.04) 1px,transparent 1px),linear-gradient(90deg,rgba(37,99,235,0.04) 1px,transparent 1px); background-size:40px 40px; mask-image:radial-gradient(ellipse at center,black 40%,transparent 80%);"></div>
+
+    <div style="max-width:760px; margin:0 auto; padding:0 24px; position:relative; z-index:1;">
+      <a href="/" class="animate-fade-up" style="display:inline-flex; align-items:center; gap:6px; font-size:0.8125rem; font-weight:600; color:var(--text-secondary); text-decoration:none; margin-bottom:24px; transition:color 0.2s;" onmouseover="this.style.color='var(--blue-vivid)'" onmouseout="this.style.color='var(--text-secondary)'">
+        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 12H5M12 5l-7 7 7 7"/></svg>
+        Home
+      </a>
+
+      <div class="animate-fade-up stagger-1" style="display:inline-flex; align-items:center; gap:8px; padding:5px 14px; background:rgba(37,99,235,0.08); border:1px solid rgba(37,99,235,0.2); border-radius:100px; font-size:0.75rem; font-weight:700; color:var(--blue-vivid); letter-spacing:0.06em; text-transform:uppercase; margin-bottom:20px;">
+        🔒 Privacy
+      </div>
+
+      <h1 class="animate-fade-up stagger-2" style="font-size:clamp(2rem,5vw,3rem); font-weight:800; letter-spacing:-0.04em; margin-bottom:16px; color:var(--ink);">
+        Privacy Policy
+      </h1>
+
+      <p class="animate-fade-up stagger-3" style="font-size:1.0625rem; color:var(--text-secondary); line-height:1.75; max-width:600px;">
+        Your privacy matters to us. This policy explains what information we collect, how we use it, and the choices available to you.
+      </p>
+
+      <div class="animate-fade-up stagger-4" style="display:flex; align-items:center; gap:8px; margin-top:24px; font-size:0.8125rem; color:var(--text-muted);">
+        <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        Last updated: {lastUpdated}
+      </div>
     </div>
+  </section>
 
-    <div class="prose prose-lg prose-slate text-slate-600">
-      <p>
-        Infalex.com respects your privacy. We do not collect personal information
-        unless you voluntarily provide it (for example, by signing up for a newsletter or contacting us via email).
-      </p>
-
-      <h3>Cookies and Third-Party Services</h3>
-      <p>
-        We may use third-party services such as Google AdSense and Analytics. These services may use
-        cookies to serve ads based on your prior visits to our website or other websites.
-      </p>
-
-      <h3>Data Protection</h3>
-      <p>
-        We take reasonable steps to protect your personal information. However, no method of transmission over the internet is 100% secure.
-      </p>
-
-      <p>
-        By using this website, you consent to this privacy policy.
-      </p>
+  <!-- ══ QUICK NAV ══ -->
+  <div style="background:var(--surface); border-bottom:1px solid var(--border); position:sticky; top:68px; z-index:50; overflow-x:auto;">
+    <div style="max-width:760px; margin:0 auto; padding:0 24px;">
+      <div style="display:flex; gap:4px; padding:10px 0; white-space:nowrap;">
+        {['Information', 'Cookies', 'Usage', 'Security', 'International', 'Links', 'Children', 'Changes'].map((item, i) => (
+          <a href={`#section-${i}`} style="display:inline-flex; padding:5px 12px; font-size:0.75rem; font-weight:600; color:var(--text-secondary); text-decoration:none; border-radius:8px; transition:background 0.15s, color 0.15s; white-space:nowrap;" onmouseover="this.style.background='var(--surface-3)'; this.style.color='var(--ink)';" onmouseout="this.style.background=''; this.style.color='var(--text-secondary)';">
+            {item}
+          </a>
+        ))}
+      </div>
     </div>
   </div>
+
+  <!-- ══ CONTENT ══ -->
+  <section style="padding:72px 0 96px; background:var(--surface);">
+    <div style="max-width:760px; margin:0 auto; padding:0 24px;">
+
+      <!-- Commitment card -->
+      <div class="reveal" style="background:linear-gradient(135deg,var(--blue-soft),rgba(6,182,212,0.06)); border:1px solid rgba(37,99,235,0.15); border-radius:20px; padding:28px 32px; margin-bottom:56px; display:flex; gap:20px; align-items:flex-start;">
+        <div style="font-size:1.75rem; flex-shrink:0; margin-top:2px;">🤝</div>
+        <div>
+          <h2 style="font-size:1rem; font-weight:800; color:var(--ink); margin-bottom:8px; letter-spacing:-0.02em;">Our Privacy Commitment</h2>
+          <p style="font-size:0.9375rem; color:var(--text-secondary); line-height:1.7; margin:0;">
+            Infalex does <strong style="color:var(--ink);">not sell your data</strong> to anyone, period. We collect only what we need to run this website and serve you better. Your trust is the foundation of everything we do.
+          </p>
+        </div>
+      </div>
+
+      <!-- Policy sections -->
+      <div style="display:flex; flex-direction:column;">
+        {sections.map((section, i) => (
+          <div id={`section-${i}`} class="reveal" style={`transition-delay:${i * 0.06}s;`}>
+            <!-- Section -->
+            <div style="display:flex; gap:20px; align-items:flex-start; padding:36px 0;">
+              <div style="display:flex; flex-direction:column; align-items:center; gap:0; flex-shrink:0;">
+                <div style="width:44px; height:44px; background:var(--surface-2); border:1px solid var(--border); border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:1.25rem;">
+                  {section.icon}
+                </div>
+                {i < sections.length - 1 && (
+                  <div style="width:1px; flex:1; min-height:24px; background:var(--border); margin-top:8px;"></div>
+                )}
+              </div>
+              <div style="flex:1; padding-bottom:12px;">
+                <h2 style="font-size:1.125rem; font-weight:800; letter-spacing:-0.03em; color:var(--ink); margin-bottom:12px;">
+                  {`0${i + 1}`.slice(-2)}.&nbsp;{section.title}
+                </h2>
+                <p style="font-size:0.9375rem; color:var(--text-secondary); line-height:1.85; margin:0;">
+                  {section.content}
+                </p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <!-- Your rights -->
+      <div class="reveal" style="margin-top:16px; border:1px solid var(--border); border-radius:20px; overflow:hidden;">
+        <div style="padding:24px 28px; background:var(--surface-2); border-bottom:1px solid var(--border);">
+          <h3 style="font-size:1.0625rem; font-weight:800; letter-spacing:-0.025em; color:var(--ink); margin:0;">Your Rights & Choices</h3>
+        </div>
+        <div style="padding:24px 28px; background:var(--surface);">
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;" class="rights-grid">
+            {[
+              { right: 'Access', desc: 'Request a copy of any personal data we hold about you.' },
+              { right: 'Correction', desc: 'Ask us to correct inaccurate or incomplete data.' },
+              { right: 'Deletion', desc: 'Request deletion of your personal data from our records.' },
+              { right: 'Opt-out', desc: 'Opt out of analytics tracking using browser settings or extensions.' },
+            ].map(item => (
+              <div style="display:flex; gap:12px; align-items:flex-start;">
+                <div style="width:8px; height:8px; background:var(--blue-vivid); border-radius:50%; margin-top:6px; flex-shrink:0;"></div>
+                <div>
+                  <p style="font-size:0.875rem; font-weight:700; color:var(--ink); margin:0 0 3px;">{item.right}</p>
+                  <p style="font-size:0.8125rem; color:var(--text-secondary); margin:0; line-height:1.6;">{item.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <!-- Consent statement -->
+      <div class="reveal" style="margin-top:28px; padding:20px 24px; background:var(--surface-2); border-radius:14px; border:1px solid var(--border);">
+        <p style="font-size:0.875rem; color:var(--text-secondary); line-height:1.75; margin:0;">
+          By using Infalex.com, you <strong style="color:var(--ink);">consent to this Privacy Policy</strong>. If you do not agree with these terms, please refrain from using our website.
+        </p>
+      </div>
+
+      <!-- Contact -->
+      <div class="reveal" style="margin-top:28px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px; padding:24px 28px; background:var(--ink); border-radius:16px;">
+        <div>
+          <p style="font-size:0.9375rem; font-weight:700; color:white; margin-bottom:4px;">Questions about your privacy?</p>
+          <p style="font-size:0.8125rem; color:rgba(255,255,255,0.55); margin:0;">Reach out and we'll respond within 48 hours.</p>
+        </div>
+        <a href="mailto:contact@infalex.com" style="display:inline-flex; align-items:center; gap:8px; padding:10px 20px; background:white; color:var(--ink); font-family:'Sora',sans-serif; font-weight:700; font-size:0.875rem; border-radius:10px; text-decoration:none; transition:opacity 0.2s;" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">
+          contact@infalex.com
+        </a>
+      </div>
+
+      <!-- Related pages -->
+      <div class="reveal" style="margin-top:24px; display:grid; grid-template-columns:1fr 1fr; gap:12px;" class="legal-links-grid">
+        <a href="/disclaimer" style="display:flex; align-items:center; gap:12px; padding:16px 20px; background:var(--surface); border:1px solid var(--border); border-radius:12px; text-decoration:none; transition:transform 0.2s, box-shadow 0.2s, border-color 0.2s;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='var(--shadow-md)'; this.style.borderColor='rgba(37,99,235,0.2)';" onmouseout="this.style.transform=''; this.style.boxShadow=''; this.style.borderColor='var(--border)';">
+          <span style="font-size:1.25rem;">⚠️</span>
+          <div>
+            <p style="font-size:0.875rem; font-weight:700; color:var(--ink); margin:0 0 2px;">Disclaimer</p>
+            <p style="font-size:0.75rem; color:var(--text-muted); margin:0;">Content usage terms</p>
+          </div>
+        </a>
+        <a href="/about" style="display:flex; align-items:center; gap:12px; padding:16px 20px; background:var(--surface); border:1px solid var(--border); border-radius:12px; text-decoration:none; transition:transform 0.2s, box-shadow 0.2s, border-color 0.2s;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='var(--shadow-md)'; this.style.borderColor='rgba(37,99,235,0.2)';" onmouseout="this.style.transform=''; this.style.boxShadow=''; this.style.borderColor='var(--border)';">
+          <span style="font-size:1.25rem;">ℹ️</span>
+          <div>
+            <p style="font-size:0.875rem; font-weight:700; color:var(--ink); margin:0 0 2px;">About Infalex</p>
+            <p style="font-size:0.75rem; color:var(--text-muted); margin:0;">Our mission & values</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <style>
+    @media (max-width: 560px) {
+      .rights-grid { grid-template-columns: 1fr !important; }
+      .legal-links-grid { grid-template-columns: 1fr !important; }
+    }
+  </style>
+
 </BaseLayout>

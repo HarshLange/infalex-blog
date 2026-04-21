@@ -130,14 +130,12 @@ Tired of guessing if your resume is going to pass the ATS scan? Don't leave it t
 ## Keep Optimizing Your Job Search with Infalex
 If you found these tips helpful, make sure your entire application strategy is up to date for 2026. Check out our other comprehensive guides:
 
-[Resume vs. CV: 5 Key Differences You Must Know to Get Hired in 2026](https://blog.infalex.com/posts/resume-vs-cv-difference-guide/) - 
-Confused between a Resume and a CV? Learn the key differences in length, content, and purpose, and discover exactly when to use each document to land your dream job.
+[Resume vs. CV: 5 Key Differences You Must Know to Get Hired in 2026](https://blog.infalex.com/posts/resume-vs-cv-difference-guide/) - Confused between a Resume and a CV? Learn the key differences in length, content, and purpose, and discover exactly when to use each document to land your dream job.
 
 [Stop Sending Your Resume Into a Black Hole: The 'Invisible' Formatting Mistake Rejection Your Application (And How to Fix It in 5 Minutes)](https://blog.infalex.com/posts/ats-rejection-fix/) - 
 Is your resume disappearing into a black hole? Learn the critical reasons why Applicant Tracking Systems (ATS) reject your application and get actionable steps to fix your formatting fast.
 
-[Cracking the Code: Top Resume Keywords Recruiters Look for in 2026](https://blog.infalex.com/posts/top-resume-keywords-recruiters-look/) - 
-Unlock the secrets to getting your resume seen. Discover the essential keywords and phrases that Applicant Tracking Systems (ATS) and human recruiters prioritize in 2026.
+[Cracking the Code: Top Resume Keywords Recruiters Look for in 2026](https://blog.infalex.com/posts/top-resume-keywords-recruiters-look/) - Unlock the secrets to getting your resume seen. Discover the essential keywords and phrases that Applicant Tracking Systems (ATS) and human recruiters prioritize in 2026.
 
 [The Ultimate Guide: Best ATS Resume Format for Freshers in 2026](https://blog.infalex.com/posts/best-ats-resume-format/) - 
 Stop getting rejected by bots. Learn how to build a high-ranking, ATS-friendly resume that actually lands interviews for entry-level roles in 2026.
