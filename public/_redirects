@@ -1,0 +1,33 @@
+# Cloudflare Pages Redirect Rules
+# SEO Migration: blog.infalex.com → infalex.com
+# All rules are 301 Permanent Redirects
+
+# Static page redirects
+/blog https://infalex.com/blog 301
+/about https://infalex.com/about 301
+/contact https://infalex.com/contact 301
+/privacy https://infalex.com/privacy 301
+/disclaimer https://infalex.com/disclaimer 301
+/rss.xml https://infalex.com/rss.xml 301
+
+# Blog post redirects — /posts/slug → infalex.com/blog/slug
+/posts/ATS-Rejection-Fix https://infalex.com/blog/ATS-Rejection-Fix 301
+/posts/Best-ATS-Resume-Format https://infalex.com/blog/Best-ATS-Resume-Format 301
+/posts/Top-Resume-Keywords-Recruiters-Look https://infalex.com/blog/Top-Resume-Keywords-Recruiters-Look 301
+/posts/best-resume-format-bca-students-india https://infalex.com/blog/best-resume-format-bca-students-india 301
+/posts/common-resume-mistakes https://infalex.com/blog/common-resume-mistakes 301
+/posts/how-long-should-a-resume-be https://infalex.com/blog/how-long-should-a-resume-be 301
+/posts/resume-vs-cv-difference-guide https://infalex.com/blog/resume-vs-cv-difference-guide 301
+/posts/welcome-to-infalex https://infalex.com/blog/welcome-to-infalex 301
+
+# Dynamic catch-all for any /posts/* path not listed above
+/posts/* https://infalex.com/blog/:splat 301
+
+# Dynamic catch-all for any /blog/* path
+/blog/* https://infalex.com/blog/:splat 301
+
+# Homepage redirect (must come after more specific rules)
+/ https://infalex.com/blog 301
+
+# Catch-all fallback — prevents any 404s
+/* https://infalex.com 301
